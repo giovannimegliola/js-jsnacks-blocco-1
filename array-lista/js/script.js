@@ -10,7 +10,7 @@ Fridge.push('pesca');
 
 let watermelon = false;
 
-for (let i = 0; i < Fridge.length && !watermelon; i++) {
+for (let i = 0; i < Fridge.length; i++) {
   if (Fridge[i] === 'cocomero'){
     watermelon = true
   }
